@@ -1,0 +1,13 @@
+{
+  "name": "broccoli-esdoc",
+  "version": "0.0.1",
+  "description": "Broccoli plugin for ESDoc",
+  "main": "index.js",
+  "author": "Chris Garrett",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-caching-writer": "^3.0.3",
+    "esdoc": "1.0.0-alpha.7",
+    "merge": "~1.2.0"
+  }
+}
