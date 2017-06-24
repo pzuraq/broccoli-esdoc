@@ -4,7 +4,6 @@ const merge         = require('merge');
 const ESDoc         = require('esdoc').default;
 const path          = require('path');
 const CachingWriter = require('broccoli-caching-writer');
-const exec = require('child-process-promise').exec;
 
 const defaultOpts = {
   source: './app',
