@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "broccoli-caching-writer": "^3.0.3",
-    "esdoc": "1.0.0-alpha.7",
+    "esdoc": "https://github.com/pzuraq/esdoc.git#bcd3f55bada45f0555f491cc3789c4dc3970d703",
     "merge": "~1.2.0"
   }
 }
