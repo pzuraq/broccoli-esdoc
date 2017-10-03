@@ -1,6 +1,6 @@
 {
   "name": "broccoli-esdoc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Broccoli plugin for ESDoc",
   "main": "index.js",
   "author": "Chris Garrett",
