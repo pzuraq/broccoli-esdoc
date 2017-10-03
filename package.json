@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "broccoli-caching-writer": "^3.0.3",
-    "esdoc": "1.0.0-alpha.7",
+    "esdoc": "^1.0.3",
     "merge": "~1.2.0"
   }
 }

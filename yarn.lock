@@ -219,14 +219,6 @@ cheerio@0.22.0:
     lodash.reject "^4.4.0"
     lodash.some "^4.4.0"
 
-child-process-promise@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/child-process-promise/-/child-process-promise-2.2.1.tgz#4730a11ef610fad450b8f223c79d31d7bdad8074"
-  dependencies:
-    cross-spawn "^4.0.2"
-    node-version "^1.0.0"
-    promise-polyfill "^6.0.1"
-
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -252,13 +244,6 @@ core-js@^2.4.0:
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-
-cross-spawn@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-4.0.2.tgz#7b9247621c23adfdd3856004a823cbe397424d41"
-  dependencies:
-    lru-cache "^4.0.1"
-    which "^1.2.9"
 
 cryptiles@2.x.x:
   version "2.0.5"
@@ -388,83 +373,9 @@ escodegen@^1.6.1:
   optionalDependencies:
     source-map "~0.2.0"
 
-esdoc-accessor-plugin@latest:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/esdoc-accessor-plugin/-/esdoc-accessor-plugin-0.0.4.tgz#e44fb60a55c95539bc86d19266b0fae51e7bb8c0"
-
-esdoc-brand-plugin@latest:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/esdoc-brand-plugin/-/esdoc-brand-plugin-0.0.6.tgz#506fde4bb0e1316d8678b7c6fa7a8d595a891597"
-  dependencies:
-    cheerio "0.22.0"
-
-esdoc-coverage-plugin@latest:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/esdoc-coverage-plugin/-/esdoc-coverage-plugin-0.0.4.tgz#ec0e87ac711faf789634e71b9eee94f50301a2f1"
-  dependencies:
-    fs-extra "1.0.0"
-
-esdoc-external-ecmascript-plugin@latest:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/esdoc-external-ecmascript-plugin/-/esdoc-external-ecmascript-plugin-0.0.4.tgz#3c45a127a4a0de5b5b4a523a7ad24138b6a86241"
-  dependencies:
-    fs-extra "1.0.0"
-
-esdoc-integrate-manual-plugin@latest:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/esdoc-integrate-manual-plugin/-/esdoc-integrate-manual-plugin-0.0.3.tgz#7c412d76ffdd68ad56b43641c05dfe6aa1d3b95a"
-
-esdoc-integrate-test-plugin@latest:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/esdoc-integrate-test-plugin/-/esdoc-integrate-test-plugin-0.0.3.tgz#6f1851cec32f00f587451ccbf9de1067a373a922"
-
-esdoc-lint-plugin@latest:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/esdoc-lint-plugin/-/esdoc-lint-plugin-0.0.3.tgz#226b20ab31424dbd65c04894b687f9e436756e94"
-
-esdoc-publish-html-plugin@latest:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/esdoc-publish-html-plugin/-/esdoc-publish-html-plugin-0.0.11.tgz#d67799a2892517b0658f06f10de5d0d287de5137"
-  dependencies:
-    babel-generator "6.11.4"
-    cheerio "0.22.0"
-    escape-html "1.0.3"
-    fs-extra "1.0.0"
-    ice-cap "0.0.4"
-    marked "0.3.6"
-    taffydb "2.7.2"
-
-esdoc-standard-plugin@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/esdoc-standard-plugin/-/esdoc-standard-plugin-0.0.7.tgz#aad6fe773f1d65aebfab4df6ebbfdc37d71176d7"
-  dependencies:
-    esdoc-accessor-plugin latest
-    esdoc-brand-plugin latest
-    esdoc-coverage-plugin latest
-    esdoc-external-ecmascript-plugin latest
-    esdoc-integrate-manual-plugin latest
-    esdoc-integrate-test-plugin latest
-    esdoc-lint-plugin latest
-    esdoc-publish-html-plugin latest
-    esdoc-type-inference-plugin latest
-    esdoc-undocumented-identifier-plugin latest
-    esdoc-unexported-identifier-plugin latest
-
-esdoc-type-inference-plugin@latest:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/esdoc-type-inference-plugin/-/esdoc-type-inference-plugin-0.0.2.tgz#226aff15e6a613ae7a84ed2e0e675f3e5663efe4"
-
-esdoc-undocumented-identifier-plugin@latest:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/esdoc-undocumented-identifier-plugin/-/esdoc-undocumented-identifier-plugin-0.0.5.tgz#651815e86b9e3b2aa634f5b14de295f539ece330"
-
-esdoc-unexported-identifier-plugin@latest:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/esdoc-unexported-identifier-plugin/-/esdoc-unexported-identifier-plugin-0.0.4.tgz#618dbc1346166119037fb38f3ac6a8a8287f85ff"
-
-esdoc@1.0.0-alpha.7:
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/esdoc/-/esdoc-1.0.0-alpha.7.tgz#d9670357dc7da64c4214561a01cc098679bc4c80"
+esdoc@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/esdoc/-/esdoc-1.0.3.tgz#4a67d33e8b5462e12828cf5d34507f3979cac30e"
   dependencies:
     babel-generator "6.11.4"
     babel-traverse "6.12.0"
@@ -666,10 +577,6 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-isexe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
-
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
@@ -806,13 +713,6 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0"
 
-lru-cache@^4.0.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.1.tgz#622e32e82488b49279114a4f9ecf45e7cd6bba55"
-  dependencies:
-    pseudomap "^1.0.2"
-    yallist "^2.1.2"
-
 marked@0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
@@ -864,10 +764,6 @@ mktemp@~0.4.0:
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
-
-node-version@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/node-version/-/node-version-1.0.0.tgz#1b9b9584a9a7f7a6123f215cd14a652bf21ab19e"
 
 nth-check@~1.0.1:
   version "1.0.1"
@@ -929,14 +825,6 @@ promise-map-series@^0.2.1:
   resolved "https://registry.yarnpkg.com/promise-map-series/-/promise-map-series-0.2.3.tgz#c2d377afc93253f6bd03dbb77755eb88ab20a847"
   dependencies:
     rsvp "^3.0.14"
-
-promise-polyfill@^6.0.1:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-6.0.2.tgz#d9c86d3dc4dc2df9016e88946defd69b49b41162"
-
-pseudomap@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -1168,12 +1056,6 @@ whatwg-url-compat@~0.6.5:
   dependencies:
     tr46 "~0.0.1"
 
-which@^1.2.9:
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/which/-/which-1.2.14.tgz#9a87c4378f03e827cecaf1acdf56c736c01c14e5"
-  dependencies:
-    isexe "^2.0.0"
-
 wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
@@ -1185,7 +1067,3 @@ wrappy@1:
 "xml-name-validator@>= 2.0.1 < 3.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
-
-yallist@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
